@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.seikimo.wirelessredstone.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "MixinDedicatedServer",
+    "MixinRedstoneLampBlock"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

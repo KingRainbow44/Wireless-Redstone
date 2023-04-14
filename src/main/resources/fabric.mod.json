@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "wireless-redstone",
+  "version": "1.0",
+  "name": "Wireless Redstone",
+  "description": "Redstone to communicate with the outside world.",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/seiKiMo-Inc/Wireless-Redstone"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/WirelessRedstone/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "moe.seikimo.wirelessredstone.WirelessRedstone"
+    ]
+  },
+  "mixins": [
+    "WirelessRedstone.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
